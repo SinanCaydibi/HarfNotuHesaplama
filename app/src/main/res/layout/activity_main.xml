@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/ss"
+
+    >
+    <ImageView
+        android:id="@+id/img_hesapla"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/calculator"/>
+
+    <EditText
+        android:id="@+id/et_vize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Vize"
+        android:inputType="number"
+        android:textColor="#BDB4AE"
+        android:textColorHighlight="#BDB4AE"
+        android:textColorHint="#BDB4AE"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Final"
+        android:inputType="number"
+        android:textColor="#BDB4AE"
+        android:textColorHighlight="#BDB4AE"
+        android:textColorHint="#BDB4AE"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_hamOrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Ham Ortalama"
+        android:inputType="number"
+        android:textColor="#BDB4AE"
+        android:textColorHighlight="#BDB4AE"
+        android:textColorHint="#BDB4AE"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/et_Standart_Sapma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Standart Sapma"
+        android:inputType="number"
+        android:textColor="#BDB4AE"
+        android:textColorHighlight="#BDB4AE"
+        android:textColorHint="#BDB4AE"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3830426928924111/3258854786">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+</RelativeLayout>

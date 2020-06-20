@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330487316250",
+    "firebase_url": "https://krkkaleuniversitesi-5f9b1.firebaseio.com",
+    "project_id": "krkkaleuniversitesi-5f9b1",
+    "storage_bucket": "krkkaleuniversitesi-5f9b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330487316250:android:d19272cd33550661",
+        "android_client_info": {
+          "package_name": "com.example.krkkale_universitesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330487316250-3aegmp0otfi3bpauvrpsk86d2uapoji5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krkkale_universitesi",
+            "certificate_hash": "37c14775684021835ea20a26d53f5dbe550e9a5e"
+          }
+        },
+        {
+          "client_id": "330487316250-72edgoteuas88l1eksn6frmjk22cjrtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pFvtuffD6MqbELBXNE0zaycHG5A_N48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330487316250-72edgoteuas88l1eksn6frmjk22cjrtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
